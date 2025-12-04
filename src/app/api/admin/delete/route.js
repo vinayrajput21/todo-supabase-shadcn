@@ -1,6 +1,6 @@
 // src/app/api/admin/delete/route.js
 import { NextResponse } from 'next/server';
-import { getUserFromCookie } from '../../../../lib/auth';
+import { getUserFromCookie } from '../../../../../lib/auth';
 import { createSupabaseServiceClient } from '../../../../lib/supabaseServer';
 
 export async function POST(req) {

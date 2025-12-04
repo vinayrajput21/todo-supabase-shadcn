@@ -1,7 +1,7 @@
 // src/app/api/admin/block/route.js
 import { NextResponse } from 'next/server';
-import { getUserFromCookie } from '../../../../lib/auth';
-import { createSupabaseServiceClient } from '../../../../lib/supabaseServer';
+import { getUserFromCookie } from '../../../../../lib/auth';
+import { createSupabaseServiceClient } from '../../../../../lib/supabaseServer';
 
 export async function POST(req) {
   const { user, profile } = await getUserFromCookie();

@@ -1,6 +1,6 @@
 // src/app/dashboard/page.js
-import { getUserFromCookie } from '../../lib/auth';
-import { createSupabaseServerWithAccessToken } from '../../lib/supabaseServer';
+import { getUserFromCookie } from '../../../lib/auth';
+import { createSupabaseServerWithAccessToken } from '../../../lib/supabaseServer';
 import AddTodoForm from '../../components/AddTodoForm';
 import TodoItem from '../../components/TodoItem';
 

@@ -1,6 +1,6 @@
 // src/app/admin/page.js
-import { getUserFromCookie } from '../../lib/auth';
-import { createSupabaseServiceClient } from '../../lib/supabaseServer';
+import { getUserFromCookie } from '../../../lib';
+import { createSupabaseServiceClient } from '../../../lib/supabaseServer';
 import UserRow from '../../components/UserRow';
 
 export default async function AdminPage() {

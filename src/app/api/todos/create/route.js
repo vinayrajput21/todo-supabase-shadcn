@@ -1,7 +1,7 @@
 // src/app/api/todos/create/route.js
 import { NextResponse } from 'next/server';
-import { getUserFromCookie } from '../../../../lib/auth';
-import { createSupabaseServerWithAccessToken } from '../../../../lib/supabaseServer';
+import { getUserFromCookie } from '../../../../../lib/auth';
+import { createSupabaseServerWithAccessToken } from '../../../../../lib/supabaseServer';
 
 export async function POST(req) {
   const { user, token } = await getUserFromCookie();

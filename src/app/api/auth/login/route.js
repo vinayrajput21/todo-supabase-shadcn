@@ -1,6 +1,6 @@
 // src/app/api/auth/login/route.js
 import { NextResponse } from 'next/server';
-import { supabaseBrowser } from '../../../../lib/supabaseClient';
+import { supabaseBrowser } from '../../../../../lib/supabaseClient';
 import cookie from 'cookie';
 
 export async function POST(req) {

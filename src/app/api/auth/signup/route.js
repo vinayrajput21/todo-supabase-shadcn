@@ -1,7 +1,7 @@
 // src/app/api/auth/signup/route.js
 import { NextResponse } from 'next/server';
-import { supabaseBrowser } from '../../../../lib/supabaseClient';
-import { createSupabaseServiceClient } from '../../../../lib/supabaseServer';
+import { supabaseBrowser } from '../../../../../lib/supabaseClient.js';
+import { createSupabaseServiceClient } from '../../../../../lib/supabaseServer.js';
 import cookie from 'cookie';
 
 export async function POST(req) {

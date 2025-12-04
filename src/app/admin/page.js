@@ -1,5 +1,5 @@
 // src/app/admin/page.js
-import { getUserFromCookie } from '../../../lib';
+import { getUserFromCookie } from '../../../lib/auth';
 import { createSupabaseServiceClient } from '../../../lib/supabaseServer';
 import UserRow from '../../components/UserRow';
 
